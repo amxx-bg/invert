@@ -1,0 +1,36 @@
+body.inverted {
+  filter: invert(1) hue-rotate(.5turn);
+}
+
+.inverted img, .inverted iframe, .inverted video, .inverted .adsbygoogle {
+  filter: invert(1) hue-rotate(.5turn);
+}
+
+.inverted img:not(:hover) {
+  opacity: .7;
+  transition: opacity .25s ease-in-out;
+}
+
+.inverted .headerbar {
+	background-image: none;
+}
+
+@media (prefers-color-scheme: invert) {
+
+  html {
+    filter: invert(1) hue-rotate(.5turn);
+  }
+
+  img, iframe, video, .adsbygoogle {
+    filter: invert(1) hue-rotate(.5turn);
+  }
+
+  img:not(:hover) {
+    opacity: .7;
+    transition: opacity .25s ease-in-out;
+  }
+  
+  .headerbar {
+		background-image: none;
+  }
+}

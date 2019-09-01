@@ -1,0 +1,8 @@
+services:
+    evilsystem.invert.listener:
+        class: evilsystem\invert\event\listener
+        arguments:
+            - '@template'
+            - '@user'
+        tags:
+            - { name: event.listener }
