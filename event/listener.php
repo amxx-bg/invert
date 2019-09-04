@@ -64,7 +64,7 @@ class listener implements EventSubscriberInterface
 		$this->template->append_var('INVERT_STYLE', $themeInvert);
 		$this->template->append_var('CLASSIC_STYLE', $themeClassic);
     
-		$this->user->add_lang_ext('evilsystem\invert', 'invert');
+		$this->user->add_lang_ext('evilsystem/invert', 'invert');
 		$this->template->assign_var('INVERT_MESSAGE'	, $this->user->lang['INVERTED_THEME']);
 		$this->template->assign_var('CLASSIC_MESSAGE'	, $this->user->lang['CLASSIC_THEME']);
 	}
