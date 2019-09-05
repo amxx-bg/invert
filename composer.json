@@ -2,7 +2,7 @@
     "name": "evilsystem/invert",
     "type": "phpbb-extension",
     "description": "Inverts the theme",
-    "version": "0.1.2",
+    "version": "0.1.4",
     "time": "2019-09-01",
 		"keywords": ["phpbb", "extension", "style"],
     "license": "GPL-2.0",

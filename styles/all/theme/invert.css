@@ -1,4 +1,4 @@
-body.inverted {
+.wrap.inverted {
   filter: invert(1) hue-rotate(.5turn);
 }
 

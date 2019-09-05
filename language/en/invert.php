@@ -35,6 +35,6 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'INVERTED_THEME'			=> 'Inverted',
-	'CLASSIC_THEME'				=> 'Classic',
+	'INVERTED_THEME'			=> 'Dark theme',
+	'CLASSIC_THEME'				=> 'Light theme',
 ));

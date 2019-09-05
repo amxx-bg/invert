@@ -1,6 +1,6 @@
 function invert(inverted) {
     if (inverted) {
-        $("body").addClass("inverted");
+        $(".wrap").addClass("inverted");
         $("#callInvert").hide();
 		$("#callClassic").show();
 		
@@ -11,7 +11,7 @@ function invert(inverted) {
 		document.cookie = "inverted=true;expires=" + date.toGMTString() + ";path=/";
 		
     } else {
-        $("body").removeClass("inverted");
+        $(".wrap").removeClass("inverted");
         $("#callInvert").show();
 		$("#callClassic").hide();
 		
